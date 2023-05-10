@@ -5,7 +5,7 @@ Cashew é um app para compra e retirada de produtos de maneira agil e facilitand
 # Inicio rápido [ MOBILE ]
 
 Para iniciar o projeto mobile, crie um arquivo dentro de `./mobile` com o nome `.env`. Na primeira linha adicione: `API_URL={URL DA API}`.
-Entre em `./mobile` e rode no terminal `npx expo start --clear` para iniciar o projeto limpando o bundle, com todas as alterações mais recentes.
+Entre em `./mobile` e rode no terminal `npm i && npx expo start --clear` para iniciar o projeto limpando o bundle, com todas as alterações mais recentes.
 
 # Inicio rápido [ BACK-END JSON-SERVER ]
 
