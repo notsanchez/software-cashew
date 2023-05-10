@@ -9,9 +9,11 @@ export default function WelcomePage() {
 
     return (
         <>
-            <View className="flex-1 items-center justify-center">
-                <Text>Bem-vindo ao Cashew!</Text>
-                <TouchableOpacity onPress={() => changeRoute('login')} className='px-4 py-2 font-bold text-lg bg-primary rounded-md'>Login</TouchableOpacity>
+            <View className="flex items-center justify-center h-screen w-screen">
+                <Text>Bem vindo ao cashew!</Text>
+                <TouchableOpacity onPress={() => changeRoute('login')} className='px-4 py-2 font-bold text-lg bg-primary rounded-md'>
+                    <Text>Login</Text>
+                </TouchableOpacity>
                 <StatusBar style="auto" />
             </View>
         </>

@@ -9,9 +9,13 @@ export default function LoginPage() {
 
     return (
         <>
-            <View className="flex-1 items-center justify-center">
-                <Text>Login</Text>
-                <TouchableOpacity onPress={() => changeRoute('index')} className='px-4 py-2 font-bold text-lg bg-primary rounded-md'>Voltar</TouchableOpacity>
+            <View className="flex items-center justify-center h-screen w-screen">
+                <Text>Pagina de login</Text>
+                <TouchableOpacity onPress={() => changeRoute('index')} className='px-4 py-2 font-bold text-lg rounded-md'>
+                    <Text className='font-bold'>
+                        Voltar
+                    </Text>
+                </TouchableOpacity>
                 <StatusBar style="auto" />
             </View>
         </>
